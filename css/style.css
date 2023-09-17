@@ -1,0 +1,51 @@
+.background-photo {
+  background-image: url('../images/compute-ea4c57a4.png'); /* Replace with your image file path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 80%;
+  height: 100vh; /* 100% of the viewport height */
+  background-color: #A5CEE6;
+}
+
+/* Apply a solid color fill to the right 30% of the screen */
+.color-fill {
+  background-color: #A5CEE6; /* Replace with your desired color code */
+  height: 100vh; /* 100% of the viewport height */
+
+}
+.main-title{
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  margin: 0px;
+  color: white;
+  height: 100%;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+}
+
+.main-title>img{
+  height: 250px;
+  border-radius:30%;
+  align-self: center;
+  padding-top: 0%;
+  align:center;
+}
+h3{
+  font-style: italic
+}
+span{
+  color: #34A1E0;
+}
+.card-img-top{
+  height: 70%;!important
+}
+#custom-cards p{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+h2{
+  font-style: italic
+}
